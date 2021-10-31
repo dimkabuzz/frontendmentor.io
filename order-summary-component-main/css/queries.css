@@ -1,0 +1,26 @@
+/***************************/
+/* Below 432px (Phones) */
+/***************************/
+
+@media (max-width: 27em) {
+  .page {
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-position-y: -3.2rem;
+  }
+
+  .order-heading {
+    font-size: 2.2rem;
+  }
+
+  .order-main {
+    padding: 4rem 2.5rem;
+  }
+
+  .order-item {
+    padding: 1.5rem;
+  }
+
+  .order-item-details {
+    font-size: 1.4rem;
+  }
+}

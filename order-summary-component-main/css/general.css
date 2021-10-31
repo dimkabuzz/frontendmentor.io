@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #7280a7;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #3829e0;
+  padding: 1.6rem 0;
+  width: 100%;
+  color: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 0.8rem 2.2rem 0.5rem #3829e04a;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #766cf1;
+}
