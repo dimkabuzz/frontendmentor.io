@@ -1,0 +1,41 @@
+/***************************/
+/* Below 528px (Phones) */
+/***************************/
+
+@media (max-width: 33em) {
+  .page {
+    text-align: center;
+  }
+
+  .stats-text-box {
+    padding: 3.5rem;
+  }
+
+  .stats-header {
+    font-size: 2.7rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .stats-paragraph {
+    margin-bottom: 4.2rem;
+  }
+
+  .section-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-data {
+    flex-direction: column;
+    gap: 3.8rem;
+  }
+
+  .stats-img-box {
+    height: 24rem;
+    grid-row: 1;
+    background-image: linear-gradient(
+        rgb(33 27 131 / 60%),
+        rgb(33 27 131 / 60%)
+      ),
+      url("../images/image-header-mobile.jpg");
+  }
+}

@@ -11,12 +11,55 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
-    Get insights that help your business grow. Discover the benefits of data
-    analytics and make better decisions regarding revenue, customer experience,
-    and overall efficiency. 10k+ companies 314 templates 12m+ queries
+    <main class="page">
+      <section class="section-stats">
+        <div class="stats-text-box">
+          <h2 class="stats-header">
+            Get <strong>insights</strong> that help your business grow.
+          </h2>
+          <p class="stats-paragraph">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="stats-data">
+            <div>
+              <span class="stats-data-number">10k+</span>
+              <span class="stats-data-text">Companies</span>
+            </div>
+            <div>
+              <span class="stats-data-number">314</span>
+              <span class="stats-data-text">Templates</span>
+            </div>
+            <div>
+              <span class="stats-data-number">12M+</span>
+              <span class="stats-data-text">Queries</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="stats-img-box"
+          role="img"
+          aria-label="People working in office"
+        ></div>
+      </section>
+    </main>
   </body>
 </html>
