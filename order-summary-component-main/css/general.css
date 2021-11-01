@@ -20,6 +20,11 @@ a {
   transition: all 0.3s;
 }
 
+a:focus-visible {
+  outline: 0.3rem dashed #00c9fa;
+  outline-offset: 0.5rem;
+}
+
 .btn:link,
 .btn:visited {
   display: inline-block;
