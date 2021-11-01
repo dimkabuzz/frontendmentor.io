@@ -1,0 +1,74 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.section-previews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 92rem;
+  min-height: 50rem;
+  border-radius: 0.9rem;
+  overflow: hidden;
+}
+
+.preview-box {
+  display: flex;
+  flex-direction: column;
+  gap: 3.8rem;
+  padding: 5rem;
+}
+
+.preview-box--sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.preview-box--suvs {
+  background-color: hsl(184, 100%, 22%);
+  box-shadow: 1.9rem 0 1rem -2rem #444444 inset;
+}
+
+.preview-box--luxury {
+  background-color: hsl(179, 100%, 13%);
+  box-shadow: 1.9rem 0 1rem -2rem #2c2c2c inset;
+}
+
+.preview-icon {
+  height: 4rem;
+  width: 6.4rem;
+}
+
+.preview-title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 4rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+}
+
+.preview-desc {
+  margin-top: -1rem;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.preview-box .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.preview-box--sedans .btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.preview-box--suvs .btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.preview-box--luxury .btn {
+  color: hsl(179, 100%, 13%);
+}

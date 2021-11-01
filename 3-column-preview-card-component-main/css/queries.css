@@ -1,0 +1,19 @@
+/***************************/
+/* Below 560px (Phones) */
+/***************************/
+
+@media (max-width: 35em) {
+  .section-previews {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2.5rem;
+  }
+
+  .preview-box--suvs {
+    box-shadow: 0 1.9rem 1rem -2rem #444444 inset;
+  }
+
+  .preview-box--luxury {
+    box-shadow: 0 1.9rem 1rem -2rem #2c2c2c inset;
+  }
+}
