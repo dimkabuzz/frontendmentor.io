@@ -1,0 +1,89 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #19a1ad;
+
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-position: -42% 220%, 130% -180%;
+  background-repeat: no-repeat, no-repeat;
+}
+
+/***************************/
+/* Below 400px (Phones) */
+/***************************/
+
+@media (max-width: 25em) {
+  .page {
+    background-position: 130% 180%, -30% -80%;
+  }
+}
+
+.profile {
+  max-width: 35rem;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 1.4rem;
+  overflow: hidden;
+  margin: 2.5rem;
+  box-shadow: 0 4rem 8rem -2rem hsl(227deg 10% 46%);
+}
+
+.profile-header {
+  border-bottom: 1px solid hsl(185deg 61% 78%);
+}
+
+.profile-bg {
+  height: 14rem;
+  background-image: url("../images/bg-pattern-card.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.profile-img {
+  border-radius: 100px;
+  border: 0.5rem solid #fff;
+  transform: translateY(-50%);
+}
+
+.profile-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin-top: -3.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.profile-age {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  margin-left: 0.6rem;
+}
+
+.profile-city {
+  font-size: 1.4rem;
+  color: hsl(185, 75%, 39%);
+  margin-bottom: 2.8rem;
+}
+
+.profile-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2.7rem;
+}
+
+.stat-number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  margin-bottom: 0.8rem;
+}
+
+.stat-title {
+  font-size: 1rem;
+  color: hsl(0, 0%, 59%);
+  letter-spacing: 1px;
+}
