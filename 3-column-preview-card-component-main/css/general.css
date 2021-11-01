@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: "Lexend Deca", sans-serif;
+  font-display: fallback;
   line-height: 1;
   font-weight: 400;
   color: #fff;
