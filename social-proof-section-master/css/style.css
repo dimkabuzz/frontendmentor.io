@@ -101,7 +101,7 @@
   padding: 4.3rem 3.1rem;
   background-color: hsl(300, 43%, 22%);
   border-radius: 0.8rem;
-  transition: transform 1.1s;
+  transition: transform 1s;
 }
 
 .testimonial:nth-child(4) {

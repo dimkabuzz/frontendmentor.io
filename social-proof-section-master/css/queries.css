@@ -41,6 +41,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 1.6rem;
+    padding: 1.9rem 3rem;
     transform: none;
   }
 
