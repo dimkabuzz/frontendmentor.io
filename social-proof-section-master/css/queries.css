@@ -1,0 +1,51 @@
+/***************************/
+/* Below 560px (Phones) */
+/***************************/
+
+@media (max-width: 35em) {
+  .page {
+    background: url("../images/bg-pattern-top-mobile.svg"),
+      url("../images/bg-pattern-bottom-mobile.svg");
+    background-position: left top, right 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #fff;
+    background-size: 100vw, 100vw;
+  }
+
+  .section-social {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    column-gap: 0;
+    row-gap: 1.7rem;
+  }
+
+  .social-header-box {
+    grid-column: 1;
+    text-align: center;
+  }
+
+  .social-header {
+    font-size: 3.2rem;
+    line-height: 1;
+    margin-bottom: 2.2rem;
+  }
+
+  .social-rating {
+    grid-column: 1;
+    justify-self: center;
+    width: 100%;
+    margin-bottom: 3.2rem;
+  }
+
+  .social-rating .rate-box {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.6rem;
+    transform: none;
+  }
+
+  .section-social .testimonial {
+    grid-column: 1;
+    transform: none;
+  }
+}

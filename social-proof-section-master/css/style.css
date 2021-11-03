@@ -18,9 +18,10 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr auto;
-  row-gap: 11rem;
+  row-gap: 7.5rem;
   column-gap: 3rem;
   max-width: 111rem;
+  margin: 8rem 2.5rem;
 }
 
 .social-header-box {
@@ -50,14 +51,14 @@
   flex-direction: column;
   justify-self: end;
   gap: 1.7rem;
+  width: 44rem;
   margin-top: 2rem;
 }
 
 .rate-box {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   gap: 3rem;
-  width: 42rem;
   padding: 1.9rem 3rem;
   background-color: hsl(300, 24%, 96%);
   border-radius: 0.8rem;
@@ -84,23 +85,23 @@
 
 .testimonial {
   grid-column: span 2;
-  background-color: hsl(300, 43%, 22%);
   padding: 4.3rem 3.1rem;
+  background-color: hsl(300, 43%, 22%);
   border-radius: 0.8rem;
 }
 
-.testimonial:nth-child(3) {
-  transform: translateY(-3.6rem);
+.testimonial:nth-child(4) {
+  transform: translateY(1.8rem);
 }
 
-.testimonial:nth-child(4) {
-  transform: translateY(-1.8rem);
+.testimonial:nth-child(5) {
+  transform: translateY(3.6rem);
 }
 
 .testimonial-author {
   display: flex;
   gap: 2.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.8rem;
 }
 
 .testimonial-author div {
