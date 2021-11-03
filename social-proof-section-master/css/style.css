@@ -1,0 +1,132 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+
+  background: url("../images/bg-pattern-top-desktop.svg"),
+    url("../images/bg-pattern-bottom-desktop.svg");
+
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #fff;
+  background-size: 37vw, 73vw;
+}
+
+.section-social {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr auto;
+  row-gap: 11rem;
+  column-gap: 3rem;
+  max-width: 111rem;
+}
+
+.social-header-box {
+  grid-column: span 3;
+  max-width: 44rem;
+}
+
+.social-header {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 1.1rem;
+}
+
+.social-desc {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1.7;
+  color: hsl(303, 10%, 53%);
+}
+
+.social-rating {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  gap: 1.7rem;
+  margin-top: 2rem;
+}
+
+.rate-box {
+  display: flex;
+  align-items: flex-end;
+  gap: 3rem;
+  width: 42rem;
+  padding: 1.9rem 3rem;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 0.8rem;
+}
+
+.rate-box:nth-child(1) {
+  transform: translateX(-9rem);
+}
+
+.rate-box:nth-child(2) {
+  transform: translateX(-4.5rem);
+}
+
+.rate-stars {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.rate-desc {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: hsl(300, 43%, 22%);
+}
+
+.testimonial {
+  grid-column: span 2;
+  background-color: hsl(300, 43%, 22%);
+  padding: 4.3rem 3.1rem;
+  border-radius: 0.8rem;
+}
+
+.testimonial:nth-child(3) {
+  transform: translateY(-3.6rem);
+}
+
+.testimonial:nth-child(4) {
+  transform: translateY(-1.8rem);
+}
+
+.testimonial-author {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.testimonial-author div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.testimonial-author-img {
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.testimonial-author-name {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.testimonial-author-role {
+  font-size: 1.3rem;
+  color: hsl(333, 80%, 67%);
+}
+
+.testimonial-text {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  color: hsl(300, 24%, 96%);
+}
