@@ -47,8 +47,46 @@
     transform: none;
   }
 
+  .rate-box:nth-child(1) {
+    transform: none;
+    animation-duration: 0.7s;
+    animation-name: slidein1;
+  }
+
+  .rate-box:nth-child(2) {
+    transform: none;
+    animation-duration: 1.1s;
+    animation-name: slidein2;
+  }
+
+  .rate-box:nth-child(3) {
+    transform: none;
+    animation-duration: 1.5s;
+    animation-name: slidein2;
+  }
+
   .section-social .testimonial {
     grid-column: 1;
     transform: none;
+  }
+
+  @keyframes slidein1 {
+    from {
+      transform: translateY(6rem);
+    }
+
+    to {
+      transform: translateY(0rem);
+    }
+  }
+
+  @keyframes slidein2 {
+    from {
+      transform: translateY(6rem);
+    }
+
+    to {
+      transform: translateY(0rem);
+    }
   }
 }
