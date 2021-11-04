@@ -66,7 +66,7 @@
 
 .rate-box:nth-child(1) {
   transform: translateX(-9rem);
-  animation-duration: 1s;
+  animation-duration: 1.3s;
   animation-name: slidein1;
 }
 
@@ -102,7 +102,7 @@
 
 .testimonial:nth-child(5) {
   transform: translateY(3.6rem);
-  animation-duration: 1s;
+  animation-duration: 1.3s;
   animation-name: slideout5;
 }
 
