@@ -62,27 +62,18 @@
   padding: 1.9rem 5.9rem 1.9rem 3rem;
   background-color: hsl(300, 24%, 96%);
   border-radius: 0.8rem;
-  transition: transform 1s;
 }
 
 .rate-box:nth-child(1) {
   transform: translateX(-9rem);
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 100%;
-  }
-
-  to {
-    margin-right: 0%;
-    width: 100%;
-  }
+  animation-duration: 1s;
+  animation-name: slidein1;
 }
 
 .rate-box:nth-child(2) {
   transform: translateX(-4.5rem);
+  animation-duration: 1s;
+  animation-name: slidein2;
 }
 
 .rate-stars {
@@ -101,15 +92,18 @@
   padding: 4.3rem 3.1rem;
   background-color: hsl(300, 43%, 22%);
   border-radius: 0.8rem;
-  transition: transform 1s;
 }
 
 .testimonial:nth-child(4) {
   transform: translateY(1.8rem);
+  animation-duration: 1s;
+  animation-name: slideout4;
 }
 
 .testimonial:nth-child(5) {
   transform: translateY(3.6rem);
+  animation-duration: 1s;
+  animation-name: slideout5;
 }
 
 .testimonial-author {
@@ -144,4 +138,44 @@
   font-size: 1.3rem;
   line-height: 1.7;
   color: hsl(300, 24%, 96%);
+}
+
+@keyframes slidein1 {
+  from {
+    transform: translateX(0rem);
+  }
+
+  to {
+    transform: translateX(-9rem);
+  }
+}
+
+@keyframes slide2 {
+  from {
+    transform: translateX(0rem);
+  }
+
+  to {
+    transform: translateX(-4.5rem);
+  }
+}
+
+@keyframes slideout4 {
+  from {
+    transform: translateX(0rem);
+  }
+
+  to {
+    transform: translateY(1.8rem);
+  }
+}
+
+@keyframes slideout5 {
+  from {
+    transform: translateX(0rem);
+  }
+
+  to {
+    transform: translateY(3.6rem);
+  }
 }
