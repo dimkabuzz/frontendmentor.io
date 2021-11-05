@@ -55,11 +55,12 @@
   border-radius: 0.8rem;
   position: relative;
   overflow: hidden;
-  transition: transform 0.3s;
+  transition: all 0.3s;
 }
 
 .feature:hover {
   transform: translateY(-1rem);
+  box-shadow: 0 1rem 3rem -0.8rem rgba(131, 166, 210, 0.3);
 }
 
 .feature-title {
