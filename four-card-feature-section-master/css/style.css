@@ -1,9 +1,10 @@
 .page {
-  max-width: 111rem;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .features {
+  max-width: 111rem;
   margin: 8rem 3.2rem;
 }
 
