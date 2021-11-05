@@ -1,0 +1,32 @@
+/***************************/
+/* Below 656px */
+/***************************/
+
+@media (max-width: 41em) {
+  .features {
+    margin: 8.5rem 3.2rem 7.8rem 3.2rem;
+  }
+
+  .header-container {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.16px;
+    margin-bottom: 7.6rem;
+  }
+
+  .features-container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .feature {
+    gap: 0.1rem;
+    padding: 2.8rem;
+    height: 22.2rem;
+  }
+
+  .feature--supervisor,
+  .feature--calculator {
+    grid-row: unset;
+  }
+}
