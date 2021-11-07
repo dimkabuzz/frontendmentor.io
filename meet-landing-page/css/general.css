@@ -99,11 +99,11 @@ a:focus-visible {
 }
 
 .mr-b-md {
-  margin-bottom: 3.2rem;
+  margin-bottom: 3.2rem !important;
 }
 
 .mr-b-sm {
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.6rem !important;
 }
 
 .container {
