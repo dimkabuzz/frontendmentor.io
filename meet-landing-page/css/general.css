@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  line-height: 1;
+  font-weight: 500;
+  color: #87879d;
+  background-color: #fafafa;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+}
