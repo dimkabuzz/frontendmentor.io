@@ -21,3 +21,93 @@ p {
   font-weight: 500;
   line-height: 2.6rem;
 }
+
+a:focus-visible {
+  outline: 0.3rem dashed #00c9fa;
+  outline-offset: 0.5rem;
+}
+
+.header-1,
+.header-2 {
+  color: #28283d;
+  font-weight: 900;
+}
+
+.header-1 {
+  font-size: 6.4rem;
+}
+
+.header-2 {
+  font-size: 4rem;
+  line-height: 4.4rem;
+}
+
+.subheading {
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 2.6rem;
+  letter-spacing: 0.4rem;
+  color: #4d96a9;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 2.6rem;
+  color: #fff;
+  background: #855fb1;
+  padding: 1.6rem 4rem;
+  border-radius: 29px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background: #b18bdd;
+}
+
+.btn--light-bg:link,
+.btn--light-bg:visited {
+  background: #4d96a9;
+}
+
+.btn--light-bg:hover,
+.btn--light-bg:active {
+  background: #71c0d4;
+}
+
+.btn--sm:link,
+.btn--sm:visited {
+  padding-left: 2.9rem;
+  padding-right: 2.9rem;
+}
+
+.version {
+  color: #d9b8ff;
+  margin-left: 0.4rem;
+}
+
+.btn--light-bg .version {
+  color: #8fe3f9;
+}
+
+.mr-b-md {
+  margin-bottom: 3.2rem;
+}
+
+.mr-b-sm {
+  margin-bottom: 1.6rem;
+}
+
+.container {
+  max-width: 119rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
