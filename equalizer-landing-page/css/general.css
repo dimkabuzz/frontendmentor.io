@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  line-height: 3.4rem;
+  font-weight: 400;
+  color: #191826;
+  background-color: #fcfaf9;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.container {
+  max-width: 119rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+}

@@ -1,0 +1,43 @@
+body {
+  background: url(../assets/bg-main-desktop.png);
+  background-position: -28rem -25rem;
+  background-repeat: no-repeat;
+}
+
+.header {
+  position: relative;
+  padding: 6.2rem 0 12.7rem 0;
+}
+
+.logo {
+  height: 3.2rem;
+  width: 14.6rem;
+}
+
+.section-hero {
+}
+
+.hero-txt-box {
+  max-width: 84.3rem;
+}
+
+.hero-heading {
+  font-size: 8.8rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.1rem;
+  margin-bottom: 4rem;
+}
+
+.hero-desc {
+}
+
+.hero-bg {
+  position: absolute;
+  background: url(../assets/bg-pattern-1.svg);
+  width: 31.2rem;
+  height: 46.8rem;
+  top: -4rem;
+  right: 0;
+  z-index: -1;
+}
