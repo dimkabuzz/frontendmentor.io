@@ -43,6 +43,10 @@ body {
   z-index: -1;
 }
 
+.section-product {
+  margin-bottom: 20.2rem;
+}
+
 .product-box {
   position: relative;
   height: 60rem;
@@ -97,48 +101,41 @@ body {
   font-weight: 700;
 }
 
-.btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.8rem;
-  text-decoration: none;
-  font-size: 1.8rem;
-  font-weight: 700;
-  line-height: 3.2rem;
+.footer {
+  padding-bottom: 9.1rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 2fr;
+}
+
+.footer-text {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.footer-text a {
   color: inherit;
-  white-space: nowrap;
-  padding: 1.5rem 0;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.3s;
 }
 
-.btn--dark:link,
-.btn--dark:visited {
-  background: #191826;
+.social {
+  justify-self: end;
+  align-self: center;
 }
 
-.btn--dark:hover,
-.btn--dark:active {
-  background: #66e2dc;
+.social div {
+  display: flex;
+  gap: 2rem;
 }
 
-.btn--light:link,
-.btn--light:visited {
-  color: #191826;
-  background: #fcfaf9;
+.social-link:link,
+.social-link:visited {
+  color: inherit;
 }
 
-.btn--light:hover,
-.btn--light:active {
-  background: #ffb964;
-}
-
-.btn:first-of-type {
-  margin-bottom: 1.6rem;
-}
-
-.btn:first-of-type img {
-  margin-top: -0.4rem;
+.social-link:hover,
+.social-link:active {
+  filter: invert(63%) sepia(39%) saturate(4081%) hue-rotate(326deg)
+    brightness(101%) contrast(96%);
 }

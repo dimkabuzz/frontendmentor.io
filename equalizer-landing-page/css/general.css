@@ -16,6 +16,10 @@ body {
   background-color: #fcfaf9;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   font-size: 2rem;
 }
@@ -24,4 +28,50 @@ p {
   max-width: 119rem;
   margin: 0 auto;
   padding: 0 4rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: inherit;
+  white-space: nowrap;
+  padding: 1.5rem 0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn--dark:link,
+.btn--dark:visited {
+  background: #191826;
+}
+
+.btn--dark:hover,
+.btn--dark:active {
+  background: #66e2dc;
+}
+
+.btn--light:link,
+.btn--light:visited {
+  color: #191826;
+  background: #fcfaf9;
+}
+
+.btn--light:hover,
+.btn--light:active {
+  background: #ffb964;
+}
+
+.btn:first-of-type {
+  margin-bottom: 1.6rem;
+}
+
+.btn:first-of-type img {
+  margin-top: -0.4rem;
 }
