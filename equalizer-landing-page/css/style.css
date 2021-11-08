@@ -15,6 +15,7 @@ body {
 }
 
 .section-hero {
+  margin-bottom: 32.1rem;
 }
 
 .hero-txt-box {
@@ -40,4 +41,104 @@ body {
   top: -4rem;
   right: 0;
   z-index: -1;
+}
+
+.product-box {
+  position: relative;
+  height: 60rem;
+  background-color: #191826;
+  border-radius: 1.2rem;
+  background-image: url("../assets/bg-pattern-2.svg");
+  background-position: 33.6rem -4rem;
+  background-repeat: no-repeat;
+}
+
+.product-img {
+  position: absolute;
+  width: 31.2rem;
+  top: -21.3rem;
+  left: 10.2rem;
+}
+
+.product-content {
+  position: absolute;
+  top: 9rem;
+  right: 9rem;
+  width: 44.6rem;
+  padding: 5.8rem;
+  background-color: #fa7453;
+  border-radius: 1.2rem;
+  color: #fcfaf9;
+}
+
+.product-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+  margin-bottom: 2.2rem;
+}
+
+.product-desc {
+  margin-bottom: 3.9rem;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.2px;
+  margin-bottom: 4.6rem;
+}
+
+.dollar {
+  font-size: 6.5rem;
+  line-height: 5.2rem;
+  font-weight: 700;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: inherit;
+  white-space: nowrap;
+  padding: 1.5rem 0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn--dark:link,
+.btn--dark:visited {
+  background: #191826;
+}
+
+.btn--dark:hover,
+.btn--dark:active {
+  background: #66e2dc;
+}
+
+.btn--light:link,
+.btn--light:visited {
+  color: #191826;
+  background: #fcfaf9;
+}
+
+.btn--light:hover,
+.btn--light:active {
+  background: #ffb964;
+}
+
+.btn:first-of-type {
+  margin-bottom: 1.6rem;
+}
+
+.btn:first-of-type img {
+  margin-top: -0.4rem;
 }
