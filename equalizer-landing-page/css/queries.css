@@ -1,0 +1,93 @@
+/***************************/
+/* Below 800px */
+/***************************/
+
+@media (max-width: 50em) {
+  body {
+    background: url(../assets/bg-main-tablet.png);
+    background-position: -38rem -25rem;
+    background-repeat: no-repeat;
+  }
+
+  .header {
+    padding-bottom: 9.5rem;
+  }
+
+  .section-hero {
+    margin-bottom: 24.9rem;
+  }
+
+  .hero-txt-box {
+    max-width: 52rem;
+  }
+
+  .hero-heading {
+    font-size: 6.4rem;
+    letter-spacing: -0.07rem;
+    margin-bottom: 2.8rem;
+  }
+
+  .hero-desc {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+
+  .hero-bg {
+    width: 26.7rem;
+    height: 40rem;
+    top: -3.2rem;
+    right: -3.6rem;
+    z-index: -1;
+  }
+
+  .section-product {
+    margin-bottom: 18.3rem;
+  }
+
+  .product-box {
+    background-position: 22.9rem -3.1rem;
+    background-size: 28rem auto;
+  }
+
+  .product-img {
+    width: 27rem;
+    top: -13.8rem;
+    left: 5.8rem;
+  }
+
+  .product-content {
+    top: 15rem;
+    right: 5.8rem;
+    width: 39.9rem;
+    padding: 4.8rem;
+  }
+
+  .product-heading {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .product-desc {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .product-price {
+    margin-bottom: 3.2rem;
+  }
+
+  .footer {
+    padding-bottom: 8.5rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3.2rem;
+  }
+
+  .footer-grid a {
+    grid-column: 1/-1;
+  }
+}

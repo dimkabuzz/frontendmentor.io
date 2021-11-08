@@ -27,7 +27,7 @@ p {
 .container {
   max-width: 119rem;
   margin: 0 auto;
-  padding: 0 4rem;
+  padding: 0 3.9rem;
 }
 
 .btn {
@@ -39,6 +39,7 @@ p {
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 3.2rem;
+  letter-spacing: -0.18px;
   color: inherit;
   white-space: nowrap;
   padding: 1.5rem 0;
