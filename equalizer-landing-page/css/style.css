@@ -1,5 +1,5 @@
 body {
-  background: url(../assets/bg-main-desktop.png);
+  background-image: url(../assets/bg-main-desktop.png);
   background-position: center -25rem;
   background-repeat: no-repeat;
 }
