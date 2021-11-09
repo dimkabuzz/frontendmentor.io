@@ -145,6 +145,7 @@ body {
 .social-link:link,
 .social-link:visited {
   color: inherit;
+  height: 2rem;
 }
 
 .social-link:hover,
