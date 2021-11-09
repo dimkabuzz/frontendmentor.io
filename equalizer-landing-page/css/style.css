@@ -1,12 +1,22 @@
 body {
   background: url(../assets/bg-main-desktop.png);
-  background-position: -28rem -25rem;
+  background-position: center -25rem;
   background-repeat: no-repeat;
 }
 
 .header {
+  margin-bottom: 12.7rem;
+}
+
+.header a {
+  display: inline-block;
+  margin-top: 6.2rem;
+}
+
+.bg-box {
   position: relative;
-  padding: 6.2rem 0 12.7rem 0;
+  max-width: 144rem;
+  margin: 0 auto;
 }
 
 .logo {
@@ -16,6 +26,11 @@ body {
 
 .section-hero {
   margin-bottom: 32.1rem;
+}
+
+.fix-width-bg {
+  position: relative;
+  max-width: 144rem;
 }
 
 .hero-txt-box {
