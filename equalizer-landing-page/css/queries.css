@@ -116,6 +116,14 @@
   .hero-bg {
     display: none;
   }
+
+  .hero-heading {
+    font-size: 5.4rem;
+  }
+
+  .hero-txt-box {
+    width: 100%;
+  }
 }
 
 /***************************/
@@ -144,10 +152,6 @@
 
   .section-hero {
     margin-bottom: 16.6rem;
-  }
-
-  .hero-txt-box {
-    width: 100%;
   }
 
   .hero-heading {
