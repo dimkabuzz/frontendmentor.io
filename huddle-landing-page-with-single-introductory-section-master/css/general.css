@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #fff;
+
+  min-height: 100vh;
+  background-color: #684bb1;
+  background-image: url("../images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:focus-visible {
+  outline: 0.3rem dashed #00c9fa;
+  outline-offset: 0.5rem;
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 8rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #684bb1;
+  cursor: pointer;
+  padding: 1.5rem 6.4rem;
+  background-color: #fff;
+  box-shadow: 0.2rem 0.4rem 0.9rem 0.3rem rgba(0, 0, 0, 0.258633);
+  border-radius: 2.8rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #e880e8;
+  color: #fff;
+}

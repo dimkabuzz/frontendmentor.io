@@ -1,0 +1,66 @@
+/***************************/
+/* Below 416px */
+/***************************/
+
+@media (max-width: 26rem) {
+  body {
+    background-image: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .container {
+    padding: 0 4rem;
+  }
+
+  .header {
+    padding-top: 3.8rem;
+    margin-bottom: 7rem;
+  }
+
+  .logo {
+    width: 12rem;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .section-hero {
+    text-align: center;
+    margin-bottom: 6.4rem;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-heading {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .hero-desc {
+    font-size: 1.6rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1.2rem;
+    padding: 1.1rem 7.5rem;
+    box-shadow: 0.1rem 0.3rem 0.5rem rgba(0, 0, 0, 0.269022);
+    border-radius: 2rem;
+  }
+
+  .social {
+    justify-content: center;
+    gap: 1.05rem;
+  }
+
+  .social-link:link,
+  .social-link:visited {
+    width: 2.8rem;
+    height: 2.8rem;
+    font-size: 1.4rem;
+  }
+}
