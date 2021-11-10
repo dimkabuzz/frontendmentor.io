@@ -15,3 +15,4 @@ This repository is a collection of all my solutions I submitted at [frontendment
 | HTML--CSS | Meet landing page               | [Live](https://meet-landing-page-dumitru.netlify.app/)                    | [Code](https://git.io/JXCVP) | 05:00   |
 | HTML--CSS | Equalizer landing page          | [Live](https://equalizer-landing-page-dumitru.netlify.app/)               | [Code](https://git.io/JXrgg) | 06:00   |
 | HTML--CSS | Single price grid component     | [Live](https://single-price-grid-component-master-dumitru.netlify.app/)   | [Code](https://git.io/JXPpE) | 01:00   |
+| HTML--CSS | Huddle landing page             | [Live](https://huddle-landing-page-dumitru.netlify.app/)                  | [Code](https://git.io/JXDgC) | 03:00   |
