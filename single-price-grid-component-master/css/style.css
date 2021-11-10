@@ -45,6 +45,10 @@ body {
 }
 
 .product-price-amount {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  white-space: nowrap;
   color: #94d9d8;
   margin-bottom: 0.4rem;
 }
