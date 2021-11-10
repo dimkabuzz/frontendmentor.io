@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 63.5rem;
+  background-color: #fff;
+  border-radius: 0.8rem;
+}
+
+.product-info {
+  grid-column: 1/-1;
+  padding: 4rem;
+}
+
+.product-heading {
+  color: #2ab3b1;
+  margin-bottom: 2.4rem;
+}
+
+.product-guarantee {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #c0df33;
+  margin-bottom: 1.1rem;
+}
+
+.product-desc {
+  color: #9aa7be;
+}
+
+.product-price {
+  padding: 4rem;
+  background-color: #2ab3b1;
+}
+
+.product-price-heading {
+  margin-bottom: 1.8rem;
+}
+
+.product-price-amount {
+  color: #94d9d8;
+  margin-bottom: 0.4rem;
+}
+
+.dollar {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.7rem;
+  letter-spacing: -0.04rem;
+  color: #fff;
+}
+
+.product-price-desc {
+  margin-bottom: 2.6rem;
+}
+
+.product-features {
+  padding: 4rem;
+  background-color: #4abfbd;
+}
+
+.product-features-heading {
+  margin-bottom: 1.8rem;
+}
+
+.prodcut-features-list {
+  list-style: none;
+}
+
+.product-features-item {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: -0.0175rem;
+  color: #d2efef;
+}

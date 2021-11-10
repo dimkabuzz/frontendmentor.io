@@ -1,0 +1,40 @@
+/***************************/
+/* Below 416px */
+/***************************/
+
+@media (max-width: 26rem) {
+  .product {
+    grid-template-columns: 1fr;
+    max-width: 31.1rem;
+  }
+
+  .product-info {
+    padding: 2.8rem 2.4rem 3.2rem 2.4rem;
+  }
+
+  .product-guarantee {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -0.019rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .product-desc {
+    font-size: 1.4rem;
+    letter-spacing: -0.0175rem;
+  }
+
+  .product-price {
+    padding: 2.4rem;
+  }
+
+  .product-features {
+    padding: 2.4rem;
+  }
+
+  .heading2 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+    letter-spacing: -0.025rem;
+  }
+}
