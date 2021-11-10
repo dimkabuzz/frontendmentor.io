@@ -18,6 +18,11 @@ body {
   background-color: #e6eff5;
 }
 
+a:focus-visible {
+  outline: 0.3rem dashed #fff;
+  outline-offset: 0.5rem;
+}
+
 .heading2,
 .heading3 {
   font-weight: 700;
