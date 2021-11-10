@@ -1,8 +1,47 @@
 /***************************/
+/* Below 1280px */
+/***************************/
+
+@media (max-width: 80rem) {
+  .hero-image {
+    max-width: 55rem;
+  }
+}
+
+/***************************/
+/* Below 1200px */
+/***************************/
+
+@media (max-width: 75rem) {
+  .hero-image {
+    max-width: 50rem;
+  }
+
+  .hero-heading {
+    margin-top: 0;
+  }
+}
+
+/***************************/
+/* Below 1024px */
+/***************************/
+
+@media (max-width: 64rem) {
+  .hero-image {
+    max-width: 35rem;
+  }
+
+  .hero-heading {
+    font-size: 3.2rem;
+    margin-top: 0;
+  }
+}
+
+/***************************/
 /* Below 416px */
 /***************************/
 
-@media (max-width: 26rem) {
+@media (max-width: 44rem) {
   body {
     background-image: url("../images/bg-mobile.svg");
     background-repeat: no-repeat;
@@ -38,6 +77,7 @@
   .hero-heading {
     font-size: 2.4rem;
     margin-bottom: 1.6rem;
+    margin-top: 0;
   }
 
   .hero-desc {
