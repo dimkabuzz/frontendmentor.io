@@ -1,0 +1,138 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.article-preview {
+  display: flex;
+  max-width: 73rem;
+  background: #ffffff;
+  box-shadow: 0px 4rem 4rem -1rem rgba(201, 213, 225, 0.503415);
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 2.4rem;
+}
+
+.article-preview-bg {
+  width: 28.5rem;
+  flex-shrink: 0;
+  background: url("../images/drawers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-preview-text {
+  padding: 3.2rem 4rem;
+}
+
+.article-preview-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  letter-spacing: 0.025rem;
+  color: #48556a;
+  margin-bottom: 1.2rem;
+}
+
+.article-preview-desc {
+  margin-bottom: 2rem;
+}
+
+.article-preview-footer {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.article-preview-author-img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.article-posted-by {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article-author-name {
+  font-weight: 700;
+  color: #48556a;
+}
+
+.article-posted-date {
+  color: #9daec2;
+}
+
+.article-share-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 3.2rem;
+  height: 3.2rem;
+  border: none;
+  cursor: pointer;
+  background: #ecf2f8;
+  border-radius: 50%;
+  margin-left: auto;
+}
+
+.article-share-btn--active {
+  background: #6e8098;
+}
+
+.article-share-btn--active img {
+  filter: brightness(0) invert(1);
+}
+
+.article-share-box {
+  display: flex;
+  gap: 2.1rem;
+  position: absolute;
+  right: -4.4rem;
+  bottom: 12rem;
+  width: 24.8rem;
+  padding: 1.8rem 3.7rem;
+  box-shadow: 0px 1rem 1rem rgba(201, 213, 225, 0.503415);
+  border-radius: 1rem;
+  background: #48556a;
+  opacity: 1;
+  transition: opacity 0.2s ease-in, transform 0.3s ease-in;
+}
+
+.article-share-box::after {
+  content: "";
+  width: 1.6rem;
+  height: 1.6rem;
+  background: #48556a;
+  position: absolute;
+  left: 11.6rem;
+  bottom: -0.8rem;
+  transform: rotate(45deg);
+}
+
+.hide-share-box {
+  opacity: 0;
+  transform: translateY(35%);
+  transition: unset;
+  right: 5rem;
+}
+
+.article-share-text {
+  letter-spacing: 5px;
+  color: #9daec2;
+}
+
+.article-share-icons {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}

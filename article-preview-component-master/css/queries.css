@@ -1,0 +1,57 @@
+/***************************/
+/* Below 592px */
+/***************************/
+
+@media (max-width: 37em) {
+  .article-preview {
+    flex-direction: column;
+  }
+
+  .article-preview-bg {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .article-preview-text {
+    padding: 3.6rem 3.2rem 2rem 3.2rem;
+  }
+
+  .article-preview-heading {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.02rem;
+  }
+
+  .article-preview-desc {
+    margin-bottom: 3.8rem;
+  }
+
+  .article-share-btn--active {
+    position: absolute;
+    right: 5.6rem;
+    bottom: 4.8rem;
+    z-index: 33;
+  }
+
+  .article-share-box {
+    right: 2.4rem;
+    left: 2.4rem;
+    width: unset;
+    bottom: 2.4rem;
+    padding: 2.8rem 3.2rem;
+    box-shadow: 0px 1rem 1rem rgba(201, 213, 225, 0.503415);
+    border-radius: 0px 0px 1rem 1rem;
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+  }
+
+  .article-share-box::after {
+    display: none;
+  }
+
+  .hide-share-box {
+    opacity: 0;
+    transition: unset;
+    right: 2.4rem;
+  }
+}
