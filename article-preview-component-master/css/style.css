@@ -89,7 +89,7 @@
   background: #6e8098;
 }
 
-.article-share-btn--active img {
+.article-share-btn--active svg {
   filter: brightness(0) invert(1);
 }
 
