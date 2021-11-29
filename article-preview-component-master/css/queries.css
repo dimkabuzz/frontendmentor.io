@@ -53,5 +53,6 @@
     opacity: 0;
     transition: unset;
     right: 2.4rem;
+    bottom: -2rem;
   }
 }
